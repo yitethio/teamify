@@ -27,12 +27,12 @@ function contactus() {
             <input
               type="text"
               placeholder="First Name"
-              className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12"
+              className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12 px-5"
             />
             <input
               type="text"
               placeholder="Last Name"
-              className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12"
+              className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12 px-5"
             />
           </div>
 
@@ -41,12 +41,12 @@ function contactus() {
             <input
               type="email"
               placeholder="Email"
-              className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12"
+              className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12 px-5"
             />
             <input
               type="text"
               placeholder="Company Name"
-              className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12"
+              className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12 px-5"
             />
           </div>
 
@@ -55,23 +55,23 @@ function contactus() {
             <input
               type="text"
               placeholder="Company Address"
-              className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12"
+              className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12 px-5"
             />
             <input
               type="text"
               placeholder="Position"
-              className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12"
+              className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12 px-5"
             />
           </div>
 
           {/* Message Input */}
           <textarea
             placeholder="Message"
-            className="border border-[#500114] rounded-lg w-full h-24 resize-none"
+            className="border border-[#500114] rounded-lg w-full h-24 resize-none px-5 py-2"
           />
 
           {/* Button */}
-          <button className="bg-[#500114] hover:bg-white hover:text-[#500114] text-white py-2 px-4 border border-[#500114] rounded w-full">
+          <button className="bg-[#500114] hover:bg-white hover:text-[#500114] text-white py-2 px-4 border border-[#500114] rounded-lg w-full">
             Send Message
           </button>
         </form>
