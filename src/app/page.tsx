@@ -66,7 +66,7 @@ export default function Home() {
       </div>
       <Services />
       <div className="flex flex-col justify-center items-center w-full h-80 mt-10 bg-[#500114] gap-10">
-        <h1 className="text-lg md:text-xl lg:text-3xl w-1/4 text-center text-white">
+        <h1 className="text-lg md:text-xl lg:text-3xl w-1/2 sm:w-1/4 text-center text-white">
           Getting started is the easiest thing you’ll do today.
         </h1>
         <button className="bg-transparent hover:bg-white hover:text-[#500114] text-white py-2 px-4 border border-white rounded w-[30%]">
