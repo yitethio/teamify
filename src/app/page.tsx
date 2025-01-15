@@ -1,11 +1,15 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import data from "./components/services/data/services";
 import Footer from "./components/footer";
 import Contactus from "./components/contactus";
 import Services from "./components/services/sercices";
+import { CiMenuBurger } from "react-icons/ci";
+import { useState } from "react";
 
 export default function Home() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <>
       <div className="h-screen w-full bg-[#500114]">
@@ -17,29 +21,47 @@ export default function Home() {
             width={500}
           ></Image>
         </div>
-        <div className="flex px-40 items-center justify-between relative ">
-          <Image
-            src="logo.svg"
-            alt="teamify logo"
-            height={28}
-            width={100}
-          ></Image>
-          <ul className="flex lg:gap-14 md:gap-10 gap-2 text-xs lg:text-sm lg:text-[#500114] text-white z-50">
-            <Link href="/">Home</Link>
-            <Link href="/services">Services</Link>
-            <Link href="/about">About</Link>
-            <Link href="/contact">Contact Us</Link>
+        <div className="flex px-5 lg:px-40 items-center justify-between relative">
+          <Image src="logo.svg" alt="teamify logo" height={28} width={100} />
+          {/* Navbar links */}
+          <CiMenuBurger
+            className="sm:hidden text-white text-2xl"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          />
+
+          <ul
+            className={`absolute sm:static top-full left-0 sm:top-auto sm:left-auto bg-[#500114] sm:bg-transparent w-full sm:w-auto flex sm:flex flex-col sm:flex-row items-center gap-5 sm:gap-14 md:gap-10 text-xs sm:text-sm text-white z-50 transition-all duration-300 ${
+              isMenuOpen ? "block" : "hidden"
+            }`}
+          >
+            <Link href="/" className="lg:text-[#500114] text-white">
+              Home
+            </Link>
+            <Link href="/services" className="lg:text-[#500114] text-white">
+              Services
+            </Link>
+            <Link href="/about" className="lg:text-[#500114] text-white">
+              About
+            </Link>
+            <Link href="/contact" className="lg:text-[#500114] text-white">
+              Contact Us
+            </Link>
           </ul>
         </div>
-        <div className="h-full lg:w-[50%] w-full px-40 flex flex-col justify-center text-white gap-10 -mt-24 ">
-          <h1 className="text-6xl">Expertise Outside Your Walls</h1>
-          <p className="w-[90%]">
-            Maximize your sales wdiith Teamfy.net. Automate your outreach and
-            spend less time chasing, more time closing
+
+        <div className="h-full w-full lg:w-[50%] px-5 lg:px-40 flex flex-col justify-center text-white gap-5 lg:gap-10 mt-0 lg:-mt-24">
+          <h1 className="text-3xl lg:text-6xl text-center lg:text-left">
+            Expertise Outside Your Walls
+          </h1>
+          <p className="w-full lg:w-[80%] text-center lg:text-left">
+            Maximize your sales with Teamfy.net. Automate your outreach and
+            spend less time chasing, more time closing.
           </p>
-          <button className="bg-transparent hover:bg-white hover:text-[#500114] text-white py-2 px-4 border border-white rounded w-[30%]">
-            Join Us
-          </button>
+          <div className="flex justify-center lg:justify-start">
+            <button className="bg-transparent hover:bg-white hover:text-[#500114] text-white py-2 px-4 border border-white rounded w-[50%] lg:w-[30%]">
+              Join Us
+            </button>
+          </div>
         </div>
       </div>
       <Services />
