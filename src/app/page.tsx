@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <div className="h-screen w-full bg-[#500114]">
-        <div className="h-full w-[50%] rounded-s-full absolute top-0 right-0 bg-white justify-center items-center lg:flex hidden ">
+        <div className="h-[99%] w-[50%] rounded-s-full absolute top-0 right-0 bg-white justify-center items-center lg:flex hidden ">
           <Image
             src="image.svg"
             alt="image logo"
