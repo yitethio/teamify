@@ -4,7 +4,10 @@ import data from "./data/services";
 const sercices = () => {
   return (
     <>
-      <div className="w-full h-32 flex items-center px-5 lg:px-40">
+      <div
+        id="services-section"
+        className="w-full h-32 flex items-center px-5 lg:px-40"
+      >
         <h1 className="text-2xl lg:text-4xl font-bold text-[#500114] text-center lg:text-left">
           Services we provide
         </h1>

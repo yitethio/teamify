@@ -10,25 +10,25 @@ const data = {
       title: "Customer service",
       description:
         "Delivering professional and empathetic assistance to address customer inquiries, resolve issues, and enhance customer satisfaction.",
-      image: "/va.svg",
+      image: "/customerservice.svg",
     },
     {
       title: "Sales development representation (SDR)",
       description:
         "Generating qualified leads and nurturing prospects through targeted outreach, ensuring a seamless handoff to the sales team.",
-      image: "/va.svg",
+      image: "/sdr.svg",
     },
     {
       title: "Social media management",
       description:
         "Creating, curating, and managing content across social platforms to boost brand visibility, engagement, and audience growth.",
-      image: "/va.svg",
+      image: "/socialmedia.svg",
     },
     {
       title: "Cold calling",
       description:
         "Engaging directly with potential customers to introduce products or services, establish connections, and drive lead generation.",
-      image: "/va.svg",
+      image: "/coldcall.svg",
     },
   ],
 };

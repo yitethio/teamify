@@ -2,7 +2,10 @@ import React from "react";
 
 function contactus() {
   return (
-    <div className="h-auto lg:h-screen flex flex-wrap lg:items-center justify-between px-5 lg:px-40 py-10">
+    <div
+      id="contact-section"
+      className="h-auto lg:h-screen flex flex-wrap lg:items-center justify-between px-5 lg:px-40 py-10"
+    >
       {/* Left Section */}
       <div className="flex flex-col gap-6 lg:gap-10 w-full lg:w-1/2">
         <h1 className="text-4xl lg:text-6xl text-[#500114]">Contact Us</h1>

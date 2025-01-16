@@ -37,13 +37,19 @@ export default function Home() {
             <Link href="/" className="lg:text-[#500114] text-white">
               Home
             </Link>
-            <Link href="/services" className="lg:text-[#500114] text-white">
+            <Link
+              href="#services-section"
+              className="lg:text-[#500114] text-white"
+            >
               Services
             </Link>
-            <Link href="/about" className="lg:text-[#500114] text-white">
+            <Link href="/About" className="lg:text-[#500114] text-white">
               About
             </Link>
-            <Link href="/contact" className="lg:text-[#500114] text-white">
+            <Link
+              href="#contact-section"
+              className="lg:text-[#500114] text-white"
+            >
               Contact Us
             </Link>
           </ul>
