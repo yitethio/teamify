@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screen: {
+        "custom-lg": "1500px",
+      },
     },
   },
   plugins: [],
