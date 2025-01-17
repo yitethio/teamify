@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import data from "./components/services/data/services";
 import Footer from "./components/footer";
 import Contactus from "./components/contactus";
 import Services from "./components/services/sercices";

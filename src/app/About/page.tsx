@@ -103,7 +103,7 @@ const About = () => {
             Founded by two industry veterans, Teamfy was born from a shared
             vision of creating a thriving outsourcing provider specializing in
             virtual assistance, customer service, sales and business
-            development, and social media management. We're committed to
+            development, and social media management. We are committed to
             delivering exceptional results while fostering a positive and
             rewarding work environment for our team.
           </p>
