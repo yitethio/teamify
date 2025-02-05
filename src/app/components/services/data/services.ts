@@ -31,7 +31,7 @@ const data = {
       image: "/coldcall.svg",
     },
     {
-      title: "Software Engineers",
+      title: "Software Engineering",
       description:
         "Engaging directly with potential customers to introduce products or services, establish connections, and drive lead generation.",
       image: "/software.jpg",

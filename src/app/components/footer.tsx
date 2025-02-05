@@ -54,6 +54,9 @@ function Footer() {
                     <li className="p-2 hover:bg-gray-200">
                       <Link href="/">Cold Calling</Link>
                     </li>
+                    <li className="p-2 hover:bg-gray-200">
+                      <Link href="/">Software Engineering</Link>
+                    </li>
                   </ul>
                 )}
               </li>
@@ -73,7 +76,7 @@ function Footer() {
             <p className="font-bold">Social Media</p>
             <ul className="flex flex-col gap-2">
               <li>
-                <Link href="/">Instagram</Link>
+                <Link href="https://www.instagram.com/teamfy_net?igsh=MTRhanc5cnN3b29mMQ==">Instagram</Link>
               </li>
               <li>
                 <Link href="/">Email</Link>
