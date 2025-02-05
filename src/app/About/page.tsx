@@ -82,9 +82,9 @@ const About = () => {
           </div>
           <div className="">
             <Image
-              src="/about4.svg"
+              src="/about_4.svg"
               alt="Team Collaboration 4"
-              width={335}
+              width={498}
               height={1000}
             />
           </div>
