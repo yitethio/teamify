@@ -73,21 +73,27 @@ function Footer() {
           </div>
           {/* Social Media Section */}
           <div className="flex flex-col gap-4 md:gap-5 w-full md:w-[40%]">
-            <p className="font-bold">Social Media</p>
-            <ul className="flex flex-col gap-2">
-              <li>
-                <Link href="https://www.instagram.com/teamfy_net?igsh=MTRhanc5cnN3b29mMQ==">Instagram</Link>
-              </li>
-              <li>
-                <Link href="/">Email</Link>
-              </li>
-              <li>
-                <Link href="https://www.linkedin.com/company/outsourcewithteamfy/about/?viewAsMember=true">
-                  LinkedIn
-                </Link>
-              </li>
-            </ul>
-          </div>
+  <p className="font-bold">Social Media</p>
+  <ul className="flex flex-col gap-2">
+    <li>
+      <Link href="https://www.instagram.com/teamfy_net?igsh=MTRhanc5cnN3b29mMQ==" target="_blank" rel="noopener noreferrer">
+        Instagram
+      </Link>
+    </li>
+    <li>
+      <Link href="/" target="_blank" rel="noopener noreferrer">
+        Email
+      </Link>
+    </li>
+    <li>
+      <Link href="https://www.linkedin.com/company/outsourcewithteamfy/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
+        LinkedIn
+      </Link>
+    </li>
+  </ul>
+</div>
+
+
         </div>
       </div>
     </div>
