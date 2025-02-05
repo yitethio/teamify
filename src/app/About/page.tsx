@@ -46,7 +46,7 @@ const About = () => {
 
         <div className="text-left px-8 py-16">
           <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold mb-4 w-1/3">
-            Expertise Outside Your Walls
+           Maximize your success
           </h1>
           <p className="text-sm md:text:lg lg:text-xl mb-8 w-full">
             Stop chasing leads and start achieving your goals. Teamify.net

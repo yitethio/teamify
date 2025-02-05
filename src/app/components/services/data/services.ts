@@ -25,10 +25,16 @@ const data = {
       image: "/socialmedia.svg",
     },
     {
-      title: "Cold calling",
+      title: "Appointment setting",
       description:
         "Engaging directly with potential customers to introduce products or services, establish connections, and drive lead generation.",
       image: "/coldcall.svg",
+    },
+    {
+      title: "Software Engineers",
+      description:
+        "Engaging directly with potential customers to introduce products or services, establish connections, and drive lead generation.",
+      image: "/software.jpg",
     },
   ],
 };

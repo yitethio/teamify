@@ -56,7 +56,7 @@ export default function Home() {
 
         <div className="h-full w-full lg:w-[50%] px-5 lg:px-40 flex flex-col justify-center text-white gap-5 lg:gap-10 mt-0 lg:-mt-24">
           <h1 className="text-3xl lg:text-6xl text-center lg:text-left">
-            Expertise Outside Your Walls
+          Maximize your success
           </h1>
           <p className="w-full lg:w-[80%] text-center lg:text-left">
             Maximize your sales with Teamfy.net. Automate your outreach and
@@ -74,9 +74,15 @@ export default function Home() {
         <h1 className="text-lg md:text-xl lg:text-3xl w-1/2 sm:w-1/4 text-center text-white">
           Getting started is the easiest thing you’ll do today.
         </h1>
-        <button className="bg-transparent hover:bg-white hover:text-[#500114] text-white py-2 px-4 border border-white rounded w-[30%]">
-          Hire Teamify
-        </button>
+        <a 
+  href="mailto:leuleyohannes85@gmail.com?subject=Hiring%20Inquiry&body=Hello,%20I%20am%20interested%20in%20hiring%20Teamify."
+  className="w-[30%]"
+>
+  <button className="bg-transparent hover:bg-white hover:text-[#500114] text-white py-2 px-4 border border-white rounded w-full">
+    Hire Teamify
+  </button>
+</a>
+
       </div>
       <Contactus />
       <Footer />
