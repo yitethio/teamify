@@ -23,7 +23,7 @@ function Footer() {
         />
         <div className="flex justify-center gap-10 text-white w-full md:w-auto">
           <div className="flex flex-col gap-4 md:gap-5 w-full md:w-[40%]">
-            <p className="font-bold">Links</p>
+            <p className="font-bold">Site Map</p>
             <ul className="flex flex-col gap-2">
               <li className="relative">
                 <button
