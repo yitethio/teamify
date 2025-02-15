@@ -46,7 +46,7 @@ const About = () => {
 
         <div className="text-left px-8 py-16">
           <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold mb-4 w-1/3">
-           Maximize your success
+            Maximize your success
           </h1>
           <p className="text-sm md:text:lg lg:text-xl mb-8 w-full">
             Stop chasing leads and start achieving your goals. Teamify.net
@@ -100,12 +100,20 @@ const About = () => {
         <div className="flex flex-col md:flex-row md:justify-between items-center lg:items-start gap-10 lg:gap-16">
           {/* Text Section */}
           <p className="text-sm md:text-base lg:text-xl md:w-1/2 text-center md:text-left">
-            Founded by two industry veterans, Teamfy was born from a shared
-            vision of creating a thriving outsourcing provider specializing in
-            virtual assistance, customer service, sales and business
-            development, and social media management. We are committed to
-            delivering exceptional results while fostering a positive and
-            rewarding work environment for our team.
+            Welcome to Teamify, <br /> where we believe in harnessing the
+            immense talent from Africa—specifically Ethiopia—to provide
+            exceptional outsourcing solutions for businesses across the US,
+            Europe, and the UK. Our mission is simple yet powerful: we aim to
+            connect skilled professionals with organizations seeking dedicated
+            support in various professional roles such as customer support,
+            sales development and business development representations, software
+            engineering, graphics design, virtual assistance, and project
+            management. <br /> At Teamify, we recognize that every client has
+            unique needs; therefore, we take pride in offering customized
+            solutions tailored specifically for each organization we serve. Our
+            rigorous selection process ensures that we only recruit top-tier
+            talents, who not only possess the necessary skills but also share
+            our commitment to excellence in service delivery.
           </p>
           {/* Image Section */}
           <div className="relative w-full md:w-1/2 flex justify-center lg:justify-end">
@@ -133,11 +141,55 @@ const About = () => {
           </div>
           {/* Text Section */}
           <p className="text-sm md:text-base lg:text-xl md:w-1/2 text-center md:text-left">
-            Our team of experienced professionals empower your growth by
-            providing comprehensive lead generation, exceptional customer
-            service, and impactful social media management.
+            One of the key pillars of our operation is delivering results within
+            short timeframes without compromising quality. We understand that
+            time is of the essence in today’s competitive landscape; therefore,
+            we prioritize efficient processes that allow us to meet project
+            deadlines consistently. Our teams work diligently around the
+            clock—leveraging time zone differences—to ensure timely completion
+            of tasks while maintaining open lines of communication with clients
+            throughout the process. <br /> Customer satisfaction is at the heart
+            of everything we do at Teamify. We believe that happy clients lead
+            to long-term partnerships built on trust and reliability. To achieve
+            this goal, we employ a proactive approach by assigning dedicated
+            account managers, who serve as points of contact for clients
+            throughout their engagement with us. These managers facilitate
+            seamless communication between clients and our teams—ensuring that
+            any concerns or feedback are addressed promptly. Our commitment
+            extends beyond merely fulfilling job roles; we strive for excellence
+            in every interaction we have with clients or customers alike. Our
+            agents undergo rigorous training programs focused on enhancing their
+            problem-solving capabilities while equipping them with essential
+            soft skills such as empathy and active listening—skills critical for
+            providing outstanding customer service experiences.
           </p>
         </div>
+
+        <p className="text-sm md:text-base lg:text-xl  text-center md:text-left">
+          We also recognize the importance of adaptability in today’s fast-paced
+          environment; hence our teams embrace change wholeheartedly! Whether it
+          involves adopting new technologies or adjusting strategies based on
+          evolving client requirements—our talent remains agile enough not only
+          meet but exceed expectations consistently! Moreover—we value
+          transparency at Teamify . Clients can expect regular updates regarding
+          project progresses along with detailed reports outlining key
+          performance indicators (KPIs). This level of transparency fosters
+          accountability within our teams while providing clients peace-of-mind
+          knowing they’re kept informed on every step along their journey with
+          us. As an outsourcing company rooted in ethical practices—we
+          prioritize fair compensation for all employees involved within our
+          organization! By choosing Teamify—clients contribute positively
+          towards sustainable economic growth within Ethiopia while gaining
+          access to highly-skilled professionals eager to contribute towards
+          mutual success! Ultimately—our goal is simple: To empower businesses
+          by providing access to world-class talents capable of delivering
+          outstanding results! Whether it’s enhancing customer experiences
+          through exceptional support services or driving revenue growth via
+          strategic sales initiatives—our teams stand ready to assist however
+          possible! Thank you for considering Teamify as your outsourcing
+          partner! We look forward to partnering together to achieve remarkable
+          outcomes!
+        </p>
       </div>
 
       <Footer />
