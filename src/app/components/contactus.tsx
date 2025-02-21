@@ -24,15 +24,21 @@ function contactus() {
           Contact us to learn more about Teamify and how we can help your
           company.
         </p>
-        <form action="" className="flex flex-col gap-5">
+        <form
+          action="https://formsubmit.co/helloteamify@gmail.com"
+          method="POST"
+          className="flex flex-col gap-5"
+        >
           {/* Name Inputs */}
           <div className="flex flex-col lg:flex-row gap-5 lg:gap-10">
             <input
+              name="first name"
               type="text"
               placeholder="First Name"
               className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12 px-5"
             />
             <input
+              name="last name"
               type="text"
               placeholder="Last Name"
               className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12 px-5"
@@ -42,11 +48,13 @@ function contactus() {
           {/* Email and Company Name */}
           <div className="flex flex-col lg:flex-row gap-5 lg:gap-10">
             <input
+              name="email"
               type="email"
               placeholder="Email"
               className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12 px-5"
             />
             <input
+              name="company name"
               type="text"
               placeholder="Company Name"
               className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12 px-5"
@@ -56,11 +64,13 @@ function contactus() {
           {/* Company Address and Position */}
           <div className="flex flex-col lg:flex-row gap-5 lg:gap-10">
             <input
+              name="company address"
               type="text"
               placeholder="Company Address"
               className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12 px-5"
             />
             <input
+              name="position"
               type="text"
               placeholder="Position"
               className="border border-[#500114] rounded-lg w-full lg:w-1/2 h-12 px-5"
@@ -69,6 +79,7 @@ function contactus() {
 
           {/* Message Input */}
           <textarea
+            name="message"
             placeholder="Message"
             className="border border-[#500114] rounded-lg w-full h-24 resize-none px-5 py-2"
           />
