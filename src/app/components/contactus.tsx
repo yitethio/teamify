@@ -20,10 +20,6 @@ function contactus() {
         <h1 className="text-4xl lg:text-6xl text-[#500114] w-full lg:w-[80%]">
           We Would Love to Hear From You
         </h1>
-        <p className="text-[#500114] font-bold">
-          Contact us to learn more about Teamify and how we can help your
-          company.
-        </p>
         <form
           action="https://formsubmit.co/helloteamify@gmail.com"
           method="POST"
