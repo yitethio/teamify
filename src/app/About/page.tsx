@@ -46,7 +46,7 @@ const About = () => {
 
         <div className="text-left px-8 py-16">
           <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold mb-4 w-1/3">
-            Maximize your success
+          Our Story
           </h1>
           <p className="text-sm md:text:lg lg:text-xl mb-8 w-full">
             Stop chasing leads and start achieving your goals. Teamify.net
@@ -92,14 +92,14 @@ const About = () => {
       </div>
       <div className="mt-12 w-full flex flex-col justify-center items-center lg:items-start px-5 md:px-20 lg:px-40 gap-12 lg:gap-16 lg:mb-52 mb-10">
         {/* Title */}
-        <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-[#500114] text-center lg:text-left">
+        {/* <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-[#500114] text-center lg:text-left">
           Our Story
-        </h1>
+        </h1> */}
 
         {/* First Section */}
         <div className="flex flex-col md:flex-row md:justify-between items-center lg:items-start gap-10 lg:gap-16">
           {/* Text Section */}
-          <p className="text-sm md:text-base lg:text-xl md:w-1/2 text-center md:text-left">
+          <p className="text-xs md:text-sm lg:text-base leading-relaxed md:w-1/2 text-center md:text-left">
             Welcome to Teamify, <br /> where we believe in harnessing the
             immense talent from Africa—specifically Ethiopia—to provide
             exceptional outsourcing solutions for businesses across the US,
@@ -140,7 +140,7 @@ const About = () => {
             />
           </div>
           {/* Text Section */}
-          <p className="text-sm md:text-base lg:text-xl md:w-1/2 text-center md:text-left">
+          <p className="text-xs md:text-sm lg:text-base leading-relaxed md:w-1/2 text-center md:text-left">
             One of the key pillars of our operation is delivering results within
             short timeframes without compromising quality. We understand that
             time is of the essence in today’s competitive landscape; therefore,
@@ -165,7 +165,7 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-sm md:text-base lg:text-xl  text-center md:text-left">
+        <p className="text-xs md:text-sm lg:text-base leading-relaxed text-center md:text-left">
           We also recognize the importance of adaptability in today’s fast-paced
           environment; hence our teams embrace change wholeheartedly! Whether it
           involves adopting new technologies or adjusting strategies based on

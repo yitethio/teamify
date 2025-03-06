@@ -75,7 +75,7 @@ export default function Home() {
           Getting started is the easiest thing you’ll do today.
         </h1>
         <a 
-  href="mailto:leuleyohannes85@gmail.com?subject=Hiring%20Inquiry&body=Hello,%20I%20am%20interested%20in%20hiring%20Teamify."
+  href="mailto:helloteamify@gmail.com?subject=Hiring%20Inquiry&body=Hello,%20I%20am%20interested%20in%20hiring%20Teamify."
   className="w-[30%]"
 >
   <button className="bg-transparent hover:bg-white hover:text-[#500114] text-white py-2 px-4 border border-white rounded w-full">

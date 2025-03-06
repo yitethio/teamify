@@ -39,13 +39,13 @@ By partnering with us, you can focus on your core business operations while we t
       image: "/software.jpg",
     },
     {
-      title: "Project Manager",
+      title: " Project Management",
       description:
         "Effective project delivery is essential for any organizational success. Our project managers in Ethiopia offer extensive experience and expertise, guiding projects through all phases, from initiation to closeout. They excel in coordinating resources, managing timelines, and ensuring that deliverables meet quality standards while aligning with client expectations.",
       image: "/Project.jpg",
     },
     {
-      title: "Graphic Designer",
+      title: "Graphics Design",
       description:
         "In a visually-driven world, compelling graphic design is essential for capturing attention and conveying messages effectively. Our Ethiopian graphic designers bring creativity and technical expertise together to create stunning visuals that resonate with your target audience. They understand the importance of brand identity and work diligently to ensure that every design element reflects your company’s values and objectives.",
       image: "/Graphic.jpg",

@@ -12,7 +12,7 @@ function Footer() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
-    <div className="w-full flex justify-center mb-5 px-4">
+    <div className="w-full flex justify-center mb-5 px-4 py-10">
       <div className="bg-[#500114] px-8 md:px-16 lg:px-40 w-full md:w-[85%] h-auto py-10 rounded-2xl flex flex-col md:flex-row justify-between items-center gap-10">
         <Image
           src="big.svg"
@@ -38,26 +38,27 @@ function Footer() {
                   )}
                 </button>
                 {isDropdownOpen && (
-                  <ul className="absolute left-0 mt-2 bg-white text-black rounded-lg shadow-lg w-48">
-                    <li className="p-2 hover:bg-gray-200">
-                      <Link href="/">Virtual Assistance</Link>
-                    </li>
-                    <li className="p-2 hover:bg-gray-200">
-                      <Link href="/">Customer Service</Link>
-                    </li>
-                    <li className="p-2 hover:bg-gray-200">
-                      <Link href="/">SDR</Link>
-                    </li>
-                    <li className="p-2 hover:bg-gray-200">
-                      <Link href="/">Social Media Management</Link>
-                    </li>
-                    <li className="p-2 hover:bg-gray-200">
-                      <Link href="/">Cold Calling</Link>
-                    </li>
-                    <li className="p-2 hover:bg-gray-200">
-                      <Link href="/">Software Engineering</Link>
-                    </li>
-                  </ul>
+                 <ul className="absolute left-0 mt-2 bg-white text-black rounded-lg shadow-lg w-48">
+                 <li className="p-2 hover:bg-gray-200">
+                   <Link href="/" className="text-[#500114]">Virtual Assistance</Link>
+                 </li>
+                 <li className="p-2 hover:bg-gray-200">
+                   <Link href="/" className="text-[#500114]">Customer Service</Link>
+                 </li>
+                 <li className="p-2 hover:bg-gray-200">
+                   <Link href="/" className="text-[#500114]">SDR</Link>
+                 </li>
+                 <li className="p-2 hover:bg-gray-200">
+                   <Link href="/" className="text-[#500114]">Social Media Management</Link>
+                 </li>
+                 <li className="p-2 hover:bg-gray-200">
+                   <Link href="/" className="text-[#500114]">Cold Calling</Link>
+                 </li>
+                 <li className="p-2 hover:bg-gray-200">
+                   <Link href="/" className="text-[#500114]">Software Engineering</Link>
+                 </li>
+               </ul>
+               
                 )}
               </li>
               <li>
@@ -66,9 +67,7 @@ function Footer() {
               <li>
                 <Link href="/about">About</Link>
               </li>
-              <li>
-                <Link href="/contact">Contact Us</Link>
-              </li>
+             
             </ul>
           </div>
           {/* Social Media Section */}
@@ -81,7 +80,7 @@ function Footer() {
       </Link>
     </li>
     <li>
-      <Link href="/" target="_blank" rel="noopener noreferrer">
+      <Link href="mailto:helloteamify@gmail.com?subject=Hiring%20Inquiry&body=Hello,%20I%20am%20interested%20in%20hiring%20Teamify." target="_blank" rel="noopener noreferrer">
         Email
       </Link>
     </li>
